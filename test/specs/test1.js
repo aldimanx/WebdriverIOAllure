@@ -3,7 +3,7 @@ describe("Demo Tests", () => {
     browser.url("https://google.com/");
     browser.pause(2000);
     await $('[name="q"]').setValue("WebdriverIO");
-    await $('button[type="submit"]').click();
+    //await $('button[type="submit"]').click();
     browser.keys("Enter");
   });
 });
